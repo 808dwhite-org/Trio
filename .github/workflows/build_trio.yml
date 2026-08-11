@@ -214,7 +214,7 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) is strongly recommended to easily tell the individual patches apart.
 
-          # OmnipodKit-Extra-Insert: File: Extra Insulin Insertion
+          # OmnipodKit: OmnipodKit/OmnipodCommon/Pod.swift: Extra Insulin Insertion
           curl https://github.com/808dwhite-org/OmnipodKit-Extra-Insert/commit/e70e1a88b85e12f9992fc35ed134cb5afac40362.patch | git apply -v --directory=OmnipodKit-Extra-Insert
 
       # Patch Fastlane Match to not print tables
