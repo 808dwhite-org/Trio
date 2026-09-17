@@ -238,6 +238,9 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) is strongly recommended to easily tell the individual patches apart.
 
+          # Module: File: Extra Insulin Insertion
+          curl https://github.com/808dwhite-org/OmnipodKit-Extra-Insert/commit/e70e1a88b85e12f9992fc35ed134cb5afac40362.patch | git apply -v --directory=OmnipodKit
+
       # Optional: silence the startup warning shown on builds made from a branch other
       # than main. Off unless you deliberately set the repository variable
       # DEV_BRANCH_WARNING_DISABLED to true (Settings > Secrets and variables > Actions
